@@ -44,7 +44,7 @@ def statusUpdate(request):
 	print("here ----------------------------------")
 	id = request.GET['id']
 	update =request.GET['update']
-	gmaps = googlemaps.Client(key='AIzaSyCoKchHu0jw6n4aCczb7S6ELNhN_ZwcV1Y') 
+	gmaps = googlemaps.Client(key='') 
 	rideDetils = get_object_or_404(ride, pk=id)
 	my_dist_1 = gmaps.distance_matrix(rideDetils.pickUp , rideDetils.destination)['rows'][0]['elements'][0]["distance"]["value"]
 	my_dist_1 = my_dist_1/1000.0
