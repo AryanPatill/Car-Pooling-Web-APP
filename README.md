@@ -17,42 +17,42 @@ Eco-Friendly: Reduce carbon footprint by carpooling.
 
 Technologies Used
 
-Backend
-Django Framework: A Python-based web framework for rapid and secure web development.
-Google Maps API:
-Directions API: Finds optimal routes.
-Distance Matrix API: Calculates distances for fare estimation.
-Geocoding API: Converts place names into coordinates.
-Places API: Suggests locations as users type.
+Backend : <br>
+Django Framework: A Python-based web framework for rapid and secure web development.<br>
+Google Maps API:<br>
+Directions API: Finds optimal routes.<br>
+Distance Matrix API: Calculates distances for fare estimation.<br>
+Geocoding API: Converts place names into coordinates.<br>
+Places API: Suggests locations as users type.<br>
 
-Frontend
-Bootstrap: For responsive and mobile-friendly design.
-jQuery: Simplifies DOM manipulation and Ajax interactions.
-JavaScript: Powers dynamic features and Google Maps integration.
+Frontend : <br>
+Bootstrap: For responsive and mobile-friendly design.<br>
+jQuery: Simplifies DOM manipulation and Ajax interactions.<br>
+JavaScript: Powers dynamic features and Google Maps integration.<br>
 
 ---
 
 Setup Instructions
 
 Prerequisites
-Ensure you have the following installed:
-Python 3.6+ [https://www.python.org/downloads/]
-Django 3.0+ [https://docs.djangoproject.com/en/3.0/intro/install/]
-Google Maps API Key [https://developers.google.com/maps/documentation]
+Ensure you have the following installed:<br>
+Python 3.6+ [https://www.python.org/downloads/] <br>
+Django 3.0+ [https://docs.djangoproject.com/en/3.0/intro/install/] <br>
+Google Maps API Key [https://developers.google.com/maps/documentation] <br>
 
 ---
 
 Getting Started
 
-Clone the repository:
+1.Clone the repository:
          git clone https://github.com/AryanPatill/Car-Pooling-Web-APP.git
 
-Navigate to the project directory and set up the environment.
+2.Navigate to the project directory and set up the environment.
 
-Apply migrations:
+3.Apply migrations:
          python manage.py migrate
 
-Run the server:
+4.Run the server:
          python manage.py runserver
 
 
