@@ -1,69 +1,60 @@
-Carpooling-Web-App
-===
+Carpooling Web App
 
-Carpooling Web App is intended to help the user to share car rides with other users traveling on the same route. The user may intend to share his car or else ride with another user who is willing to share.
+The Carpooling Web App simplifies carpooling by connecting users traveling on the same route. Users can either share their rides or join someone else’s, reducing travel costs and promoting sustainable transportation.
 
-The carpooling software is designed and developed in Django framework using GoogleMaps API.
-
-Carpooling Web App is aimed toward a person who is a frequent traveller and is looking for cheap and comfortable mode of transport. It will prove beneficial for office commuters who are headed on a common route and are willing to share the travel cost. Anyone can opt to provide a drive, thus reducing his/her expense. 
-
-
-
-:::info
-Github Repo: **[Carpooling-Web-App](https://github.com/AryanPatill/Car-Pooling-Web-APP.git)**
-:::
-
-## Setup
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See getting started for notes on how to deploy the project on a live system.
-
-### Prerequisites
-You need to install:
-1. [Python 3.6 or above](https://www.python.org/downloads/)
-2. [Django 3.0 or above](https://docs.djangoproject.com/en/3.0/intro/install/)
-3. [GoogleMaps API](https://developers.google.com/maps/documentation)
-
+Built using the Django framework and integrated with Google Maps API, the app provides a reliable and user-friendly platform for frequent travelers and daily commuters.
 
 ---
-### Getting Started
 
-Once django is installed, all you need to do is clone this repository.
+Key Features
 
-```bash
-$ git clone https://github.com/guptavishakha14/Carpooling-Web-App.git
-```
-
-After this, enter the following commands to run the webserver:
-```bash
-$ python manage.py migrate
-$ python manage.py runserver
-```
-
+Affordable Travel: Share travel costs with others heading in the same direction.
+Route Optimization: Intelligent routing using Google’s Directions API.
+Dynamic Suggestions: Real-time suggestions for places and routes.
+Eco-Friendly: Reduce carbon footprint by carpooling.
 
 ---
-## Technologies Used
 
-### Django Framework
+Technologies Used
 
-Django is a Python-based free and open-source web framework, which follows the model-template-view architectural pattern.
+Backend
+Django Framework: A Python-based web framework for rapid and secure web development.
+Google Maps API:
+Directions API: Finds optimal routes.
+Distance Matrix API: Calculates distances for fare estimation.
+Geocoding API: Converts place names into coordinates.
+Places API: Suggests locations as users type.
 
-### Google APIs Used
-* **Directions API** - It is used to display route between two points. Route similarity is inferred based on this to broadcast ride request to specific drivers.
-* **Distance Matrix API** - It is used to get distance between two points. This is used to decide fare of ride.
-*  **Geocoding API** - It is used to convert a place name(For eg: Central Park, New York) to its corresponding coordinates(latitude and longitude). 
-*  **Maps JavaScript API** - The API is used to make calls to different APIs using JavaScript.
-*  **Places API** - The API is used to get suggestions of places when user types a string.
+Frontend
+Bootstrap: For responsive and mobile-friendly design.
+jQuery: Simplifies DOM manipulation and Ajax interactions.
+JavaScript: Powers dynamic features and Google Maps integration.
 
-### Jquery
+---
 
-jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. 
+Setup Instructions
 
-### Javascript
+Prerequisites
+Ensure you have the following installed:
+Python 3.6+ [https://www.python.org/downloads/]
+Django 3.0+ [https://docs.djangoproject.com/en/3.0/intro/install/]
+Google Maps API Key [https://developers.google.com/maps/documentation]
 
-JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
+---
 
-### Bootstrap
+Getting Started
 
-Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
+Clone the repository:
+         git clone https://github.com/AryanPatill/Car-Pooling-Web-APP.git
+
+Navigate to the project directory and set up the environment.
+
+Apply migrations:
+         python manage.py migrate
+
+Run the server:
+         python manage.py runserver
+
 
 ### Python
 
