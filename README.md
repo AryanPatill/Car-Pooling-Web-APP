@@ -10,7 +10,7 @@ Carpooling Web App is aimed toward a person who is a frequent traveller and is l
 
 
 :::info
-Github Repo: **[Carpooling-Web-App](https://github.com/guptavishakha14/Carpooling-Web-App)**
+Github Repo: **[Carpooling-Web-App](https://github.com/AryanPatill/Car-Pooling-Web-APP.git)**
 :::
 
 ## Setup
@@ -74,12 +74,9 @@ Python is an interpreted, high-level, general-purpose programming language.
 The API is used to make calls to different APIs using Python.
 
 ---
-## Authors
+Contact Information 
 
-* [Vishakha Gupta](https://github.com/guptavishakha14)
-* [Saurabh Fulshankar](https://github.com/saurabhfulshankar)
-* [Kartiki Deshmukh](https://github.com/kartiki001)
-* [Prajwal Patil](https://github.com/PrajwalP7295)
+* Aryan [https://github.com/AryanPatill]
 
 ---
 
